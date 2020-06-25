@@ -34,7 +34,7 @@ __building_meta.csv__
 * year_built - Year building was opened
 * floor_count - Number of floors of the building
 
-__weather_[train/test].csv__
+__weather[train/test].csv__
 
 Weather data from a meteorological station as close as possible to the site.
 
