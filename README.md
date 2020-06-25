@@ -7,13 +7,13 @@ https://www.kaggle.com/c/ashrae-energy-prediction/overview
 
 The objective of this competition is to use the given data on 1000 buildings over a three-year time frame to develop an accurate model on metered building energy consumption. The accuracy of the model is evaluated using the Root Mean Squared Logarithmic Error 
 
-\epsilon = \sqrt{\frac{1}{n} * \sum_{i=1}^{n} ((\log{p_{i} + 1}) - (\log{a_{i}+1}))^2}
+<a href="https://www.codecogs.com/eqnedit.php?latex=\epsilon&space;=&space;\sqrt{\frac{1}{n}&space;*&space;\sum_{i=1}^{n}&space;((\log{p_{i}&space;&plus;&space;1})&space;-&space;(\log{a_{i}&plus;1}))^2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\epsilon&space;=&space;\sqrt{\frac{1}{n}&space;*&space;\sum_{i=1}^{n}&space;((\log{p_{i}&space;&plus;&space;1})&space;-&space;(\log{a_{i}&plus;1}))^2}" title="\epsilon = \sqrt{\frac{1}{n} * \sum_{i=1}^{n} ((\log{p_{i} + 1}) - (\log{a_{i}+1}))^2}" /></a>
 
-where:
-_\epsilon_ is the RMSLE value (score),
-_n_is the total number of observations in the (public/private) data set,
-_p_{i}_ is your prediction of target,
-_\log x}_ is the natural logarithm of x
+where: \n
+_\epsilon_ is the RMSLE value (score), \n
+_n_is the total number of observations in the (public/private) data set, \n
+_p_{i}_ is your prediction of target, \n
+_\log x}_ is the natural logarithm of x \n
 
 The dataset the following files:
 
