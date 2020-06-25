@@ -9,11 +9,11 @@ The objective of this competition is to use the given data on 1000 buildings ove
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\epsilon&space;=&space;\sqrt{\frac{1}{n}&space;*&space;\sum_{i=1}^{n}&space;((\log{p_{i}&space;&plus;&space;1})&space;-&space;(\log{a_{i}&plus;1}))^2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\epsilon&space;=&space;\sqrt{\frac{1}{n}&space;*&space;\sum_{i=1}^{n}&space;((\log{p_{i}&space;&plus;&space;1})&space;-&space;(\log{a_{i}&plus;1}))^2}" title="\epsilon = \sqrt{\frac{1}{n} * \sum_{i=1}^{n} ((\log{p_{i} + 1}) - (\log{a_{i}+1}))^2}" /></a>
 
-where:\
-<p>&epsilon;</p> is the RMSLE value (score),\
-_n_is the total number of observations in the (public/private) data set,\
-_p_ is your prediction of target,\
-_\log x_ is the natural logarithm of x\
+ϵ is the RMSLE value (score)
+n is the total number of observations in the (public/private) data set,
+pi is your prediction of target, and
+ai is the actual target for _i_
+log(x) is the natural logarithm of x
 
 The dataset the following files:
 
